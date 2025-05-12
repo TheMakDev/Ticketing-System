@@ -14,7 +14,7 @@ const port = process.env.PORT || 4000;
 connectDB();
 
 // CORS Configuration
-const allowedOrigins = ['http://localhost:5173'];  // You can add other origins here as needed
+const allowedOrigins = ['hhttps://ticketing-system-heh9.onrender.com'];  // You can add other origins here as needed
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
