@@ -1,0 +1,6 @@
+{
+  "builds": [],
+  "routes": [
+    { "src": "/(.*)", "dest": "/server.js" }
+  ]
+}
